@@ -270,7 +270,7 @@ The ONDC Workbench is a self-service platform designed to accelerate and simplif
 
 **Access**
 
-- **Workbench Portal:** [https://workbench.ondc.tech/home](https://workbench.ondc.tech/home)
+- **Workbench Portal:** [https://workbench.ondc.tech](https://workbench.ondc.tech)
 
 **Support & Feedback**
 - **Email:** [team@ondc.org](mailto:team@ondc.org)
