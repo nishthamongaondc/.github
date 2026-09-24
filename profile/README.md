@@ -25,8 +25,9 @@ This comprehensive guide is designed to walk you through the process of integrat
 12. [Catalog and Store Rejection](#catalog-and-store-rejection)
 13. [City and State codes](#city-and-state-codes)
 14. [Technical support](#technical-support)
-15. [Latest Updates](#latest-updates)
-16. [Release Calendar](#release-calendar)
+15. [Workbench](#workbench)
+16. [Latest Updates](#latest-updates)
+17. [Release Calendar](#release-calendar)
 
 ## Getting Started
 
@@ -85,8 +86,6 @@ The complete process is documented [here](https://github.com/ONDC-Official/devel
 
 | **Environment**    | **Endpoint For** | **URL**                                                                                                 |
 | ------------------------ | ---------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Staging**        | Gateway                | [`https://staging.gateway.proteantech.in/search`](https://staging.gateway.proteantech.in/search)               |
-|                          | Registry               | [`https://staging.registry.ondc.org/v2.0/lookup`](https://staging.registry.ondc.org/v2.0/lookup)               |
 | **Pre-Production** | Gateway                | [`https://preprod.gateway.ondc.org/search`](https://preprod.gateway.ondc.org/search)                           |
 |                          | Registry               | [`https://preprod.registry.ondc.org/v2.0/lookup`](https://preprod.registry.ondc.org/v2.0/lookup)               |
 | **Production**     | Gateway                | [`https://prod.gateway.ondc.org/search`](https://prod.gateway.ondc.org/search)                                 |
@@ -113,7 +112,7 @@ This domain encompasses subcategories such as **grocery (RET10), food and bevera
 | **Domain** | **API Contract / Developer Guide** | **Test Scenarios** | **Mock Server / Sandbox / Reference Application** | **FAQs** | Additional docs |
 | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | **B2C Retail 1.2.5 <br />(Latest)** | -[API Contract v1.2.5](https://docs.google.com/document/d/1E2OyVXh34YNEVOnS4rO3nPVoqTO3RsG2uh-BqnSrqgY) <br /> - [Retail Developer Guide](https://ondc-official.github.io/ONDC-RET-Specifications/) <br /> - *Select version: draft-b2c-1.2.5* <br /> - [Taxonomy](https://docs.google.com/spreadsheets/d/1APAvavF_BNbTA89benAlGtv0GuFvpn2b6XXi4lSdTTw/) | [B2C Test Scenarios](https://docs.google.com/document/d/1w_zncAQzShrTilhv_vaXwB9TNhjzTUZAn_rqQZTeV4U/edit?tab=t.0#heading=h.8vb55kulnjae) | NA | NA | [Click here](https://docs.google.com/spreadsheets/d/1IBKoUypLsV4nTMyo-mLk0xeLYAhvkYbT_dlW1pDO1ys/edit?gid=0#gid=0) |
-| **B2C Retail 1.2.0** | -[API Contract v1.2.0](https://docs.google.com/document/d/1brvcltG_DagZ3kGr1ZZQk4hG4tze3zvcxmGV4NMTzr8/edit) <br /> - [Retail Developer Guide](https://ondc-official.github.io/ONDC-RET-Specifications/) <br /> - *Select version: draft-1.x* <br /> - [Taxonomy](https://docs.google.com/spreadsheets/d/1APAvavF_BNbTA89benAlGtv0GuFvpn2b6XXi4lSdTTw/edit?gid=0#gid=0) | [B2C Test Scenarios](https://docs.google.com/spreadsheets/d/1JZV6ZQzXcHUsOwegGtArX3DdIXYIy3gxkhQ00q7kICc/edit#gid=1367601795) | **Reference BA/SA** <br /> - [Pre-Prod](#reference-applications) | [B2C Retail FAQs](https://docs.google.com/document/d/1Zb2XzrAUGGdthFqV5tRWxIzQf8XjaW22ev_lqfr3PbI/edit#heading=h.iz6kq888kevy) | |
+| **B2C Retail 1.2.0** | -[API Contract v1.2.0](https://docs.google.com/document/d/1brvcltG_DagZ3kGr1ZZQk4hG4tze3zvcxmGV4NMTzr8/edit) <br /> - [Retail Developer Guide](https://ondc-official.github.io/ONDC-RET-Specifications/) <br /> - *Select version: draft-1.x* <br /> - [Taxonomy](https://docs.google.com/spreadsheets/d/1APAvavF_BNbTA89benAlGtv0GuFvpn2b6XXi4lSdTTw/edit?gid=0#gid=0) | [B2C Test Scenarios](https://docs.google.com/spreadsheets/d/1JZV6ZQzXcHUsOwegGtArX3DdIXYIy3gxkhQ00q7kICc/edit#gid=1367601795) | [ONDC Workbench](#workbench) | [B2C Retail FAQs](https://docs.google.com/document/d/1Zb2XzrAUGGdthFqV5tRWxIzQf8XjaW22ev_lqfr3PbI/edit#heading=h.iz6kq888kevy) | |
 <!-- | **B2C Exports** | -[Retail Developer Guide](https://ondc-official.github.io/ONDC-RET-Specifications/) <br /> - *Select version: b2c_exports_2.0* <br /> - [Taxonomy](https://drive.google.com/drive/folders/1ZdhZh7wzl4C2452zMYh7wlAvCH-x1b2R) | NA | [Sandbox](https://mock.ondc.org/) | NA | |                                                                                                               | -->
 
 > 💡 It is important to implement **Catalog & Store Rejection Framework** for the **Retail B2C** domain.
@@ -174,10 +173,10 @@ This domain encompasses subcategories such as **grocery (RET10), food and bevera
 | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ----------------------------------------------------- | -------------- |
 | **Media, Entertainment, Content (MEC)** | -[PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE) <br />- [v2.0.0](https://github.com/ONDC-Official/ONDC-MEC-Specifications/tree/draft-print_media) <br /> - [Media, Entertainment, Content Developer Guide](https://ondc-official.github.io/ONDC-MEC-Specifications/) | NA | NA | NA | -->
 
-- ### Ancilliary Services
+- ### Ancillary Services
 
   - **Issue & Grievance Management (IGM)** within the ONDC Network serves as a critical mechanism for resolving disputes and concerns among Network Participants (NPs).
-  - **Reconcillation and Settlement Framework (RSF)** plays a pivotal role in maintaining a comprehensive trail of settlements between Network Participants.
+  - **Reconciliation and Settlement Framework (RSF)** plays a pivotal role in maintaining a comprehensive trail of settlements between Network Participants.
  <!--  - **Rating**
   - **Score** -->
 
@@ -197,9 +196,7 @@ This domain encompasses subcategories such as **grocery (RET10), food and bevera
 
 ## Reference Applications
 
-**Overview**
-
-The Retail B2C Buyer Reference Application is available in pre-production environment for v1.2.0. This application enable network participants (NPs) to test their APIs, services, and integrations independently, ensuring compliance with ONDC protocol specifications.
+Network Participants can validate, test, and debug their ONDC API integrations using the **[ONDC Workbench](#workbench)**, the self-service protocol compliance platform.
 
 **Key Features**
 
@@ -207,14 +204,7 @@ The Retail B2C Buyer Reference Application is available in pre-production enviro
 - Direct submission of logs to ONDC for verification.
 - Supports scalability, security, and compliance testing.
 
-The network participants need to complete the end-to-end testing with ONDC reference applications.
-
-## Environment Details
-## Pre-prod
-
-| Domain | Use case | Buyer App URL | Onboarding Process / Point of Contact |
-| ------ | -------- | ------------- | ------------------------------------- |
-| B2C    | Retail   | [https://buyer-app-preprod-v2.ondc.org/](https://buyer-app-preprod-v2.ondc.org/) | Email "<team@ondc.org>" to get the required support. |
+See the [Workbench](#workbench) section for schema validation, scenario testing, and log submission. Network Participants must complete end-to-end testing before going live.
 
 ## Product Requirement Documents
 
