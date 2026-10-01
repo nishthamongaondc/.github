@@ -19,15 +19,14 @@ This comprehensive guide is designed to walk you through the process of integrat
 6. [Subscription Utilities](#subscription-utilities)
 7. [Enabled Domains](#enabled-domains)
 8. [Reference Applications](#reference-applications)
-9. [Product Requirement Documents (PRDs)](#product-requirement-documents)
-10. [Gateway and Registry Endpoints](#gateway-and-registry-endpoints)
-11. [Network Observability for Production](#network-observability-for-production)
-12. [Catalog and Store Rejection](#catalog-and-store-rejection)
-13. [City and State codes](#city-and-state-codes)
-14. [Technical support](#technical-support)
-15. [Workbench](#workbench)
-16. [Latest Updates](#latest-updates)
-17. [Release Calendar](#release-calendar)
+9. [Gateway and Registry Endpoints](#gateway-and-registry-endpoints)
+10. [Network Observability for Production](#network-observability-for-production)
+11. [Catalog and Store Rejection](#catalog-and-store-rejection)
+12. [City and State codes](#city-and-state-codes)
+13. [Technical support](#technical-support)
+14. [Workbench](#workbench)
+15. [Latest Updates](#latest-updates)
+16. [Release Calendar](#release-calendar)
 
 ## Getting Started
 
@@ -41,7 +40,7 @@ The [ONDC Web Portal](https://portal.ondc.org/) serves as a self-service platfor
 
 **[Beckn](https://www.youtube.com/watch?v=gefmygtzZR8&t=1s)** is an open protocol that allows local businesses across any industry to be discovered and engaged by any beckn-enabled application. **Beckn protocol** is a collection of open specifications consisting of protocol APIs, message formats, network design and reference architectures to allow any two entities to execute commercial transactions without being on the same platform.
 
-**ONDC** has provided the network extension layer over the Beckn Protocol (base layer). Over the base layer, the network extension layer comprises **model specifications** customised to the ONDC context that have been adopted in order to facilitate transactions over the network. For a detailed understanding of the ONDC network architecture, please refer to our [Tech Briefing Presentation](https://docs.google.com/presentation/d/17mJ_zPjEYPagc5PZuw7FS3Ftcc-Gop4U6536wStRSag/edit#slide=id.g1204a6ff419_0_56) and [Video](https://drive.google.com/file/d/1WuHCc59C45LClpbiIPomPMuTeClRZw7h/view).
+**ONDC** has provided the network extension layer over the Beckn Protocol (base layer). Over the base layer, the network extension layer comprises **model specifications** customised to the ONDC context that have been adopted in order to facilitate transactions over the network. For a detailed understanding of the ONDC network architecture, please refer to our [Video](https://drive.google.com/file/d/1WuHCc59C45LClpbiIPomPMuTeClRZw7h/view).
 
 ### Subscription Process
 
@@ -205,10 +204,6 @@ Network Participants can validate, test, and debug their ONDC API integrations u
 - Supports scalability, security, and compliance testing.
 
 See the [Workbench](#workbench) section for schema validation, scenario testing, and log submission. Network Participants must complete end-to-end testing before going live.
-
-## Product Requirement Documents
-
-- PRDs for different use cases are available [here](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE).
 
 ## Catalog and Store Rejection
 
